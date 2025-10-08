@@ -22,7 +22,7 @@ const CreateOfferPage = () => {
   const [error, setError] = useState('');
   const [formData, setFormData] = useState({
     vehicleId: '',
-    locationId: 1, // You'll need to fetch locations from API
+    locationId: 1,
     startDateTime: '',
     endDateTime: '',
     priceHour: '',

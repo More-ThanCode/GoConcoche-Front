@@ -87,7 +87,7 @@ const HomePage = () => {
 											bgcolor: 'grey.50',
 										},
 									}}
-									onClick={() => navigate('/register')}>
+									onClick={() => navigate('/create-profile')}>
 									Get Started
 								</Button>
 							</Box>
